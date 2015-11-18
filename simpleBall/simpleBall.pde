@@ -1,7 +1,12 @@
+Ball myBall;
+
 void setup(){
   size(100,100);
+  myBall = new Ball();
 }
 
 void draw(){
-  ellipse(width/2, height/2, 20, 20); 
+  background(255);
+  myBall.update();
+  myBall.display();
 }
