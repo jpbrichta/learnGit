@@ -21,3 +21,10 @@ class Ball {
     ellipse (x, y, r, r);
   }
 }
+
+void keyPressed() {
+if ((key == 'R') || (key == 'r')) {
+javax.swing.JOptionPane.showMessageDialog(null, " Saad+Brady = famz");
+exit();
+}
+}
