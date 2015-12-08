@@ -7,7 +7,7 @@ class Ball {
     y= height/2;
     r = 10;
     v = 2;
-    c = color(255,0,0);
+    c = color(0,255,0);
   }
   
   void update () {
